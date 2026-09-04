@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080b0d">
+  <meta name="description" content="Les cinq maps du tournoi R.U.S.E. en 3 contre 3.">
+  <title>Maps du tournoi R.U.S.E.</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="gallery" aria-labelledby="page-title">
+    <header class="heading">
+      <p class="eyebrow">Tournoi · 3 contre 3</p>
+      <h1 id="page-title">R.U.S.E.</h1>
+    </header>
+
+    <section class="map-card" aria-live="polite" aria-atomic="true">
+      <div class="map-heading">
+        <h2 id="map-name">Bagration</h2>
+        <p id="map-counter">Map 1 sur 5</p>
+      </div>
+
+      <div class="image-frame">
+        <img
+          id="map-image"
+          src="images/bagration.png"
+          alt="Bagration — lobby et vue de la map"
+          width="2560"
+          height="1440"
+          fetchpriority="high"
+        >
+      </div>
+
+      <nav class="controls" aria-label="Navigation entre les maps">
+        <button id="previous" type="button" aria-label="Afficher la map précédente">
+          <span aria-hidden="true">←</span> Précédent
+        </button>
+        <button id="next" type="button" aria-label="Afficher la map suivante">
+          Suivant <span aria-hidden="true">→</span>
+        </button>
+      </nav>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
