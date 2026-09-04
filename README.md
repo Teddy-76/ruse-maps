@@ -1,19 +1,17 @@
 # Maps du tournoi R.U.S.E.
 
-Site statique pour parcourir les cinq maps du tournoi 3 contre 3. Il utilise seulement les montages fusionnés lobby + map et fonctionne sur GitHub Pages sans bot ni serveur à maintenir.
+Galerie des maps retenues pour le tournoi **R.U.S.E. en équipes de 3 contre 3**.
 
-## Publication avec l’interface GitHub
+## Consulter les maps
 
-1. Créer un nouveau dépôt public sur https://github.com/new, par exemple `ruse-maps`.
-2. Dans ce dépôt, choisir **Add file > Upload files**.
-3. Envoyer tout le contenu de ce dossier, y compris le dossier `images`. Le fichier `index.html` doit se trouver à la racine du dépôt.
-4. Valider avec **Commit changes**.
-5. Ouvrir **Settings > Pages**.
-6. Sous **Build and deployment**, choisir **Deploy from a branch**, la branche `main` et le dossier `/(root)`, puis enregistrer.
-7. Après quelques minutes, GitHub affiche l’adresse du site, généralement `https://NOM-DU-COMPTE.github.io/ruse-maps/`.
+➡️ [Ouvrir la galerie](https://teddy-76.github.io/ruse-maps/)
 
-Cette adresse peut être publiée et épinglée dans le salon Discord du tournoi.
+La galerie présente les cinq maps du tournoi avec, pour chacune, une vue du lobby et une vue du terrain :
 
-## Vérification locale
+- Bagration
+- Centre de gravité
+- Feux et fleurs
+- Hiver nucléaire
+- Triple-Entente
 
-Ouvrir `index.html` dans un navigateur. Les flèches gauche et droite du clavier pilotent également la navigation.
+Utilisez les boutons **Précédent** et **Suivant**, ou les flèches gauche et droite du clavier, pour parcourir les maps.
