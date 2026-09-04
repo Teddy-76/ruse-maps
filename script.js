@@ -7,7 +7,6 @@ const maps = [
 ];
 
 const image = document.querySelector("#map-image");
-const name = document.querySelector("#map-name");
 const counter = document.querySelector("#map-counter");
 const previous = document.querySelector("#previous");
 const next = document.querySelector("#next");
@@ -18,8 +17,7 @@ function showMap(index) {
   const map = maps[current];
   image.src = map.image;
   image.alt = `${map.name} — lobby et vue de la map`;
-  name.textContent = map.name;
-  counter.textContent = `Map ${current + 1} sur ${maps.length}`;
+  counter.innerHTML = `Map <strong>${current + 1}</strong> sur ${maps.length}`;
 
   // Le navigateur met les maps voisines en cache pour rendre les clics suivants rapides.
   for (const neighbour of [(current + 1) % maps.length, (current - 1 + maps.length) % maps.length]) {
