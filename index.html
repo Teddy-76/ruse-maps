@@ -25,7 +25,10 @@
           height="1440"
           fetchpriority="high"
         >
+        <button id="open-fullscreen" class="image-hitbox" type="button" aria-label="Afficher la map en grand"></button>
       </div>
+
+      <div id="map-thumbnails" class="thumbnails" aria-label="Choisir une map"></div>
 
       <nav class="controls" aria-label="Navigation entre les maps">
         <button id="previous" type="button" aria-label="Afficher la map précédente">
@@ -38,6 +41,11 @@
       </nav>
     </section>
   </main>
+
+  <dialog id="map-dialog" aria-label="Map affichée en grand">
+    <button id="close-dialog" class="close-dialog" type="button" aria-label="Fermer l’image en grand">×</button>
+    <img id="dialog-image" src="images/bagration.png" alt="Bagration — lobby et vue de la map en grand" width="2560" height="1440">
+  </dialog>
 
   <script src="script.js"></script>
 </body>

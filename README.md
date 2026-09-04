@@ -14,4 +14,4 @@ La galerie présente les cinq maps du tournoi avec, pour chacune, une vue du lob
 - Hiver nucléaire
 - Triple-Entente
 
-Utilisez les boutons **Précédent** et **Suivant**, ou les flèches gauche et droite du clavier, pour parcourir les maps.
+Utilisez les miniatures, les boutons **Précédent** et **Suivant**, ou les flèches gauche et droite du clavier pour parcourir les maps. Cliquez sur la grande image pour l’afficher en plein écran.
