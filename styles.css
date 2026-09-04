@@ -16,8 +16,8 @@ body {
   min-height: 100vh;
   margin: 0;
   background:
-    linear-gradient(rgb(3 7 7 / 78%), rgb(3 7 7 / 88%)),
-    url("images/strategic-table-background.png") center / cover fixed,
+    linear-gradient(rgb(3 7 7 / 55%), rgb(3 7 7 / 68%)),
+    url("images/strategic-table-background-v2.png") center / cover fixed,
     var(--background);
   color: var(--text);
   font-family: Inter, "Segoe UI", Arial, sans-serif;
